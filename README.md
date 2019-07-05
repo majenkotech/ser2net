@@ -9,3 +9,9 @@ If you want the opposite of ser2net (you want to connect to a "local"
 serial port device that is really remote) then Cyclades has provided
 a tool for this at http://www.coker.com.au/cyclades.  It is capable
 of connecting to ser2net using RFC2217.
+
+----
+
+This version includes the extra option `nosig` to ignore monitoring
+of modem control lines. This is essential for it to work with 
+USB UART adaptors that have no control lines.
