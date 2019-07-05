@@ -10,6 +10,9 @@ serial port device that is really remote) then Cyclades has provided
 a tool for this at http://www.coker.com.au/cyclades.  It is capable
 of connecting to ser2net using RFC2217.
 
+Also available is [ttynvt](https://gitlab.com/lars-thrane-as/ttynvt)
+which creates a full /dev/tty device using FUSE.
+
 ----
 
 This version includes the extra option `nosig` to ignore monitoring
